@@ -70,5 +70,6 @@ public class Mytest
 	public void y()
 	{
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers");
+driver.navigate().refresh();
 	}
 }
