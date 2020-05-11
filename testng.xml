@@ -16,11 +16,11 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="Test3">
+<!--   <test name="Test3">
     <parameter name="testbrowser" value="firefox"></parameter>
     <classes>
       <class name="com.org.mypac.Mytest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
 </suite> <!-- Suite -->

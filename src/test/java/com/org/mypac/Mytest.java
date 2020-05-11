@@ -33,10 +33,6 @@ public class Mytest
 			System.setProperty("webdriver.chrome.driver", "Resource/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
-		else if (browser.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "Resource/geckodriver.exe");
-			driver=new FirefoxDriver();
-		}
 		else
 		{
            System.out.println("Browser specified is not available to run");
