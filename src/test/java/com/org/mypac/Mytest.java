@@ -66,4 +66,9 @@ public class Mytest
 		//act.dragAndDrop(first, second).perform();
 	}
 
+	@Test
+	public void y()
+	{
+		driver.navigate().to("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers");
+	}
 }
