@@ -5,16 +5,16 @@
   <test name="Test1">
    <parameter name="testbrowser" value="chrome"></parameter>
     <classes>
-      <class name="com.org.mypac.Mytest"/>
+      <class name="com.org.mypac.POMClass"/>
     </classes>
   </test> <!-- Test -->
   
-   <test name="Test2">
+ <!--   <test name="Test2">
    <parameter name="testbrowser" value="ie"></parameter>
     <classes>
       <class name="com.org.mypac.Mytest"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
 <!--   <test name="Test3">
     <parameter name="testbrowser" value="firefox"></parameter>
