@@ -67,11 +67,11 @@ public class SaveSystemUserClass {
 			e.printStackTrace();
 		}
 		
+		locatoraddbutn.click();
+		
 		log.info("Adding user from database:::::::::::");
 		//database integration with selenium
 		List<String> dataFromDatabase =CommonUtill.databaseData();
-		
-		locatoraddbutn.click();
 
 		locatorUser.sendKeys(dataFromDatabase.get(0));//Julie
 		locatorusername.sendKeys(dataFromDatabase.get(1));//Murphy

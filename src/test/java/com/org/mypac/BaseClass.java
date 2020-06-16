@@ -9,13 +9,29 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 public class BaseClass 
 {
 	WebDriver driver;
+	static ExtentReports extent;
+	ExtentTest test;
+	ExtentHtmlReporter htmlReporter;
+
 
 	@BeforeTest
 	public void t() {
 
+		//Reporting:::::::::::::
+		htmlReporter = new ExtentHtmlReporter("AdvanceProperReportExtent.html");
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+		test = extent.createTest("SeleniumTest");
+		test.info("Starting with Automation Script!!!");
+		
+		//Log4j:::::::::::::::::
 		//BasicConfigurator.configure();
 		PropertyConfigurator.configure("Resource/log4j.properties");
 		
@@ -30,7 +46,8 @@ public class BaseClass
 	public void af() throws InterruptedException {
 		Thread.sleep(4000);
 		driver.quit();
-
+		test.info("End of Automation!!!");
+		extent.flush();
 	}
 
 }

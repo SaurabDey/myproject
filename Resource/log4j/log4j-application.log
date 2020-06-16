@@ -1,0 +1,115 @@
+2020-05-26 08:56:48 INFO org.mypac.POMClass:13 - executing login test
+2020-05-26 08:56:56 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-05-26 08:56:56 INFO org.mypac.POMClass:16 - Sucessfully executed login test
+2020-05-26 08:56:56 INFO org.mypac.POMClass:21 - executing adduser test
+2020-05-26 08:56:56 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-05-26 08:57:00 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-05-26 08:57:07 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-05-26 08:57:13 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-05-26 08:57:19 INFO org.mypac.POMClass:24 - Sucessfully executed adduser test
+2020-05-26 09:00:35 INFO org.mypac.POMClass:13 - executing login test
+2020-05-26 09:00:43 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-05-26 09:00:43 INFO org.mypac.POMClass:16 - Sucessfully executed login test
+2020-05-26 09:00:43 INFO org.mypac.POMClass:21 - executing adduser test
+2020-05-26 09:00:43 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-05-26 09:02:06 INFO org.mypac.POMClass:13 - executing login test
+2020-05-26 09:02:13 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-05-26 09:02:13 INFO org.mypac.POMClass:16 - Sucessfully executed login test
+2020-05-26 09:02:13 INFO org.mypac.POMClass:21 - executing adduser test
+2020-05-26 09:02:13 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-05-26 09:02:17 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-05-26 09:02:23 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-05-26 09:02:30 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-05-26 09:02:38 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-05-26 09:02:45 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-05-26 09:02:52 INFO org.mypac.POMClass:24 - Sucessfully executed adduser test
+2020-05-26 09:16:55 INFO org.mypac.POMClass:13 - executing login test
+2020-05-26 09:17:00 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-05-26 09:17:00 INFO org.mypac.POMClass:16 - Sucessfully executed login test
+2020-05-26 09:17:00 INFO org.mypac.POMClass:21 - executing adduser test
+2020-05-26 09:17:00 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-05-26 09:17:03 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-05-26 09:17:09 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-05-26 09:17:15 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-05-26 09:17:22 INFO org.mypac.POMClass:24 - Sucessfully executed adduser test
+2020-05-27 09:00:37 INFO org.mypac.POMClass:13 - executing login test
+2020-05-27 09:00:52 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-05-27 09:00:52 INFO org.mypac.POMClass:16 - Sucessfully executed login test
+2020-05-27 09:00:52 INFO org.mypac.POMClass:21 - executing adduser test
+2020-05-27 09:00:52 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-05-27 09:00:56 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-05-27 09:01:05 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-05-27 09:01:11 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-05-27 09:01:28 INFO org.mypac.POMClass:24 - Sucessfully executed adduser test
+2020-06-02 08:00:08 INFO org.mypac.POMClass:15 - ::::::executing login test
+2020-06-02 08:00:23 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-02 08:00:23 INFO org.mypac.POMClass:18 - ::::::Sucessfully executed login test
+2020-06-02 08:00:23 INFO org.mypac.POMClass:29 - :::::executing adduser test
+2020-06-02 08:00:23 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-02 08:00:25 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-02 08:00:33 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-02 08:00:40 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-02 08:00:47 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:12:28 INFO org.mypac.POMClass:15 - ::::::executing login test
+2020-06-16 08:12:37 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:12:37 INFO org.mypac.POMClass:18 - ::::::Sucessfully executed login test
+2020-06-16 08:12:37 INFO org.mypac.POMClass:29 - :::::executing adduser test
+2020-06-16 08:12:37 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:12:45 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:12:51 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:12:58 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:13:04 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:20:41 INFO org.mypac.POMClass:17 - ::::::executing login test
+2020-06-16 08:20:46 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:20:46 INFO org.mypac.POMClass:20 - ::::::Sucessfully executed login test
+2020-06-16 08:20:46 INFO org.mypac.POMClass:38 - :::::executing adduser test
+2020-06-16 08:20:46 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:20:50 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:20:57 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:21:03 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:21:10 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:24:05 INFO org.mypac.POMClass:19 - ::::::executing login test
+2020-06-16 08:24:10 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:24:10 INFO org.mypac.POMClass:22 - ::::::Sucessfully executed login test
+2020-06-16 08:24:10 INFO org.mypac.POMClass:40 - :::::executing adduser test
+2020-06-16 08:24:10 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:24:13 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:24:20 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:24:26 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:24:32 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:35:22 INFO org.mypac.POMClass:19 - ::::::executing login test
+2020-06-16 08:35:27 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:35:27 INFO org.mypac.POMClass:22 - ::::::Sucessfully executed login test
+2020-06-16 08:35:27 INFO org.mypac.POMClass:39 - :::::executing adduser test
+2020-06-16 08:35:27 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:35:31 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:35:37 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:35:43 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:35:49 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:38:19 INFO org.mypac.POMClass:19 - ::::::executing login test
+2020-06-16 08:38:25 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:38:25 INFO org.mypac.POMClass:22 - ::::::Sucessfully executed login test
+2020-06-16 08:38:25 INFO org.mypac.POMClass:40 - :::::executing adduser test
+2020-06-16 08:38:25 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:38:27 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:38:33 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:38:40 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:38:47 INFO org.mypac.SaveSystemUserClass:70 - Adding user from database:::::::::::
+2020-06-16 08:40:06 INFO org.mypac.POMClass:19 - ::::::executing login test
+2020-06-16 08:40:11 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:40:11 INFO org.mypac.POMClass:22 - ::::::Sucessfully executed login test
+2020-06-16 08:40:11 INFO org.mypac.POMClass:40 - :::::executing adduser test
+2020-06-16 08:40:11 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:40:15 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:40:22 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:40:28 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:40:37 INFO org.mypac.SaveSystemUserClass:72 - Adding user from database:::::::::::
+2020-06-16 08:46:40 INFO org.mypac.POMClass:19 - ::::::executing login test
+2020-06-16 08:46:47 INFO org.mypac.LoginClass:41 - Logged in with >>>> :Admin
+2020-06-16 08:46:47 INFO org.mypac.POMClass:22 - ::::::Sucessfully executed login test
+2020-06-16 08:46:47 INFO org.mypac.POMClass:32 - :::::executing adduser test
+2020-06-16 08:46:47 INFO org.mypac.SaveSystemUserClass:42 - Executing Adding users method
+2020-06-16 08:46:51 INFO org.mypac.SaveSystemUserClass:52 - Adding user : John Smith
+2020-06-16 08:46:55 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Linda Anderson
+2020-06-16 08:47:03 INFO org.mypac.SaveSystemUserClass:52 - Adding user : Russel Hamilton
+2020-06-16 08:47:10 INFO org.mypac.SaveSystemUserClass:72 - Adding user from database:::::::::::

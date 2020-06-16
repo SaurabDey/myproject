@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71806" started-at="2020-06-02T02:29:45Z" finished-at="2020-06-02T02:30:57Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="71806" started-at="2020-06-02T02:29:45Z" finished-at="2020-06-02T02:30:57Z">
+      <class name="com.org.mypac.POMClass">
+        <test-method status="PASS" signature="t()[pri:0, instance:com.org.mypac.POMClass@5ae9a829]" name="t" is-config="true" duration-ms="22604" started-at="2020-06-02T02:29:45Z" finished-at="2020-06-02T02:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.org.mypac.POMClass@5ae9a829]" name="login" duration-ms="14650" started-at="2020-06-02T02:30:08Z" finished-at="2020-06-02T02:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="adduser()[pri:2, instance:com.org.mypac.POMClass@5ae9a829]" name="adduser" duration-ms="26541" started-at="2020-06-02T02:30:23Z" finished-at="2020-06-02T02:30:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[adduser() failed to execute expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: adduser() failed to execute expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at com.org.mypac.POMClass.adduser(POMClass.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+        <test-method status="PASS" signature="af()[pri:0, instance:com.org.mypac.POMClass@5ae9a829]" name="af" is-config="true" duration-ms="7918" started-at="2020-06-02T02:30:49Z" finished-at="2020-06-02T02:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+      </class> <!-- com.org.mypac.POMClass -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

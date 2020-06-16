@@ -14,9 +14,14 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.hpsf.Array;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class CommonUtill {
 
@@ -100,4 +105,48 @@ public class CommonUtill {
 		
 		return dataDB;
 	}
+
+
+ public static String captureScreenShot(WebDriver driver, String name)
+ {
+	 TakesScreenshot screen= ((TakesScreenshot)driver);
+     File source=screen.getScreenshotAs(OutputType.FILE);// screenshot of file type will get created
+     
+     String myscreenshot="Resource/Screens/"+name+".png";
+     File dest= new File(myscreenshot);
+     
+    /* 
+     * <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+     	<dependency>
+     	    <groupId>commons-io</groupId>
+     	    <artifactId>commons-io</artifactId>
+     	    <version>2.6</version>
+     	</dependency>
+     */
+
+     try {
+		FileUtils.copyFile(source, dest);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+     return myscreenshot;
+     
+ }
+ 
+ public static void elementScreenshots(WebElement element, String name)
+	{    
+     File source=element.getScreenshotAs(OutputType.FILE);// screenshot of file type will get created
+     
+     String myscreenshot="Resource/Screens/"+name+".png";
+     File dest= new File(myscreenshot);
+     
+		try {
+			FileUtils.copyFile(source, dest);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 }

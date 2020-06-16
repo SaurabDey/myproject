@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 74.701 sec <<< FAILURE!
+adduser(com.org.mypac.POMClass)  Time elapsed: 26.571 sec  <<< FAILURE!
+java.lang.AssertionError: adduser() failed to execute expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at com.org.mypac.POMClass.adduser(POMClass.java:36)
+

@@ -41,5 +41,17 @@ public class LoginClass {
 		log.info("Logged in with >>>> :"+getExcelData.get(1).get(0));
 		
 	}
+	
+	public void logWithParameter(String user, String pass)
+	{
+
+		
+		locatorusername.sendKeys(user);//first Admin
+
+		locatorpass.sendKeys(pass);//first admin123
+		
+		locatorLoginbutn.click();
+		
+	}
 
 }
