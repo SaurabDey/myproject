@@ -10,9 +10,9 @@
     <classes>
       <class name="com.org.mypac.AppiumNativeAdvance">
         <methods>
-          <include name="b"/>
-          <include name="af"/>
-          <include name="t"/>
+          <include name="CoCoinAppCode"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.org.mypac.AppiumNativeAdvance -->
     </classes>
